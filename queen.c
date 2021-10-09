@@ -2,6 +2,7 @@
 #include <math.h>
 
 /*
+https://www.hackerrank.com/challenges/queens-attack-2/problem
 First Idea is to grab each neighbouring tile and then move further into that direction until we hit the end or hit an obstacle (not working for huge board ~100k)
 Second Idea is insteading of going through each neighbour imagine 4 lines passing through the queen in each direction (l -> r , t -> b , left diag, right diag)
 generalizing l -> r and t -> b is easy
